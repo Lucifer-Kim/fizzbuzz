@@ -19,10 +19,11 @@ Install
 
 How To Run
 ==============
-SQLAlchemy 를 올리기 위해 Python Shell을 실행시킨다.
+DB와 테이블을 생성하기 위해 Python Shell을 실행시킨다.
    
     $ python
     >> from app import db
     >> db.create_all()
     >> exit()
+    $ python app.py
 
